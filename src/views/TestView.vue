@@ -1,6 +1,6 @@
 <template>
-  <div class="login">
-    <PrincipalTitle text="Página de Login" />
+  <div class="test">
+    <PrincipalTitle text="Olá time :)" />
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import PrincipalTitle from '@/components/PrincipalTitle.vue'
 
 export default {
-  name: 'LoginView',
+  name: 'TestView',
   components: {
     PrincipalTitle
   }
