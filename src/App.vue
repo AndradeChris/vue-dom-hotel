@@ -2,7 +2,8 @@
   <nav>
     <router-link to="/">Início</router-link> |
     <router-link to="/acomodacoes">Acomodações</router-link> |
-    <router-link to="/reservas">Reservas</router-link> 
+    <router-link to="/reservas">Reservas</router-link> |
+    <router-link to="/contato">Contato</router-link>
   </nav>
   <router-view />
 </template>
