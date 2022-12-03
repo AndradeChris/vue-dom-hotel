@@ -1,32 +1,33 @@
 <template>
-    <input v-bind:type="type" v-bind:placeholder="placeholder" v-bind:id="id" />
+    <button class="green-button" v-bind:class="class">{{ text }}</button>
 </template>
 
 <script>
 export default {
     name: 'Button',
     props: {
-        type: String,
-        placeholder: String,
-        id: String
-        /*  style: String */
+        text: String,
+        class: String
     }
 }
 </script>
 
 <style scoped>
 .green-button {
-    width: 100%;
+    background-color: var(--green-default);
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    border: none;
+    min-width: fit-content;
+    border-radius: 0.5rem;
 }
 
-.botao-vazado {
-    border: 2px solid var(--green-dark);
-    color: var(--green-dark);
-    background-color: white;
-    /* margin-bottom: 80px; */
+.green-button:hover {
+    background-color: var(--green-dark);
 }
 
-.botao-vazado:hover {
-    color: white;
-}
+
 </style>

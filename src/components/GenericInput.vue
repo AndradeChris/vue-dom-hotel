@@ -26,6 +26,8 @@ input{
  }
 
  input:hover{
-  border: 2px solid #02732A
+  border: 2px solid var(--green-dark);
  }
+
+
 </style>
