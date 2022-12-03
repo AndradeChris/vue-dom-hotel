@@ -11,17 +11,19 @@
             <GenericInput :type="input.type" :id="input.id"/>
         </div>
     </div>
-    
+    <Button class="botao-vazado" text="Confirmar" />
 </template>
 
 <script>
 import PrincipalTitle from '@/components/PrincipalTitle.vue';
 import GenericInput from '@/components/GenericInput.vue';
+import Button from '@/components/Button.vue';
 export default{
     name: 'ReservesView',
     components:{
         PrincipalTitle,
-        GenericInput
+        GenericInput,
+        Button
     },
     data(){
         return{
@@ -96,5 +98,20 @@ export default{
 label {
     margin-left: 10px;
     font-weight: bold;
+}
+
+.green-button {
+    width: 100%;
+}
+
+.botao-vazado {
+    border: 2px solid var(--green-dark);
+    color: var(--green-dark);
+    background-color: white;
+    /* margin-bottom: 80px; */
+}
+
+.botao-vazado:hover {
+    color: white;
 }
 </style>
