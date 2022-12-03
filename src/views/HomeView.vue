@@ -6,7 +6,7 @@
 
 <script>
 
-import PrincipalTitle from '@/components/PrincipalTitle.vue';
+import PrincipalTitle from '@/components/atoms/PrincipalTitle.vue';
 
 export default {
   name: 'Homeiew',
