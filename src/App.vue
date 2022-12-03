@@ -10,6 +10,16 @@
 </template>
 
 <style>
+:root {
+  --background-color: #F2F2F2;
+  --font-color: #0D0D0D;
+  --green-light: #358C5B;
+  --green-default: #038C33;
+  --green-dark: #02732A;
+  --font-principal: 'Roboto', sans-serif;
+  --font-secundaria: Helvetica, sans-serif;
+}
+
 *{
   box-sizing:border-box;
   margin: 0;

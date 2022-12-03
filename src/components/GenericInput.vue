@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style scoped>
- input{
+input{
     border: 2px solid transparent;
     background-color: rgba(204, 204, 204, 0.12);
     padding: 1rem;
@@ -24,4 +24,10 @@ export default {
     border-radius: 0.5rem;
     box-shadow: 5px 5px 5px #a0a0a0ea;
  }
+
+ input:hover{
+  border: 2px solid var(--green-dark);
+ }
+
+
 </style>
